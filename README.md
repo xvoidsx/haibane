@@ -9,6 +9,6 @@ a simple generator for converting markdown -> html for static sites
 
 When you write a Markdown file and are ready to convert it to a webpage, simply run:
 
-`haibane example.html example.md`.
+`haibane [output.html] [input.md]`.
 
 The desired output file is the first argument you pass to `haibane`, and the input file is the second.
