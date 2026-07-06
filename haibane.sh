@@ -30,7 +30,7 @@ main () {
 	# - - -
 	echo "Generating new page..."
 	create_page "$output" "$input"
-	apply_theme	"$output"
+	apply_theme "$output"
 	echo "Done. You can view your new page in your browser of choice."
 	exit 0
 }
