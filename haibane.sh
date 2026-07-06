@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 # haibane
-# a simple SSG for xvoidsx
+# # a simple SSG for xvoidsx
+# > "There is no such thing as forever. Everything ends sooner or later." - Reki
 set -euo pipefail
 create_page () {
 	local output=$1; local input=$2
