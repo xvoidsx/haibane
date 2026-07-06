@@ -1,6 +1,8 @@
 # haibane
 a simple generator for converting markdown -> html for static sites
 
+> "There is no such thing as forever. Everything ends sooner or later. Just as it should. Because now is only now, and this moment is so precious." - Reki, *Haibane Renmei*
+
 ### using haibane
 
 **haibane** is built on top of `pandoc`.
