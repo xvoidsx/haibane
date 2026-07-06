@@ -8,6 +8,8 @@ create_page () {
 }
 apply_theme () {
 	# apply theme
+	# ( the 'default' colors are from pandoc's regular theme )
+	# we use `sed` to patch in our own theme
 	local output=$1
 	local default_bg="#fdfdfd"
 	local default_fg="#1a1a1a"
@@ -27,9 +29,9 @@ main () {
 	# - - -
 	echo "Generating new page..."
 	create_page "$output" "$input"
-	apply_theme		
+	apply_theme	"$output"
 	echo "Done. You can view your new page in your browser of choice."
-	exit
+	exit 0
 }
 main "$@"
 # TODO adding some more things:
