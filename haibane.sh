@@ -8,7 +8,7 @@ create_page () {
 }
 apply_theme () {
 	# apply theme
-	local output="$1"
+	local output=$1
 	local default_bg="#fdfdfd"
 	local default_fg="#1a1a1a"
 	local ns_bg="#000000"
