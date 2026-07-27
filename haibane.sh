@@ -20,7 +20,6 @@ apply_theme () {
 	sed -i "s/$default_fg/$ns_fg/g" "$output"
 }
 main () {
-	# quick err handling
 	if [ "$#" -ne 2 ]; then
 		echo "Usage: haibane [output.html] [input.md]"
 		exit 1
